@@ -1,0 +1,2 @@
+docker run -v /media/biolinux/EllouzSSD1/pantoea_runs/pangenome_analysis/data/genomad_run/Pantoea_agglomerans_3.fna/Pantoea_agglomerans_3_summary:/data jinlongru/phagcn2 python run_Speed_up.py --contigs /data/Pantoea_agglomerans_3_virus.fna --len 8000
+
