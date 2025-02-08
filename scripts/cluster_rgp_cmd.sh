@@ -1,0 +1,11 @@
+python scripts/cluster_rgp.py \
+    --rgp_tsv '/media/sulman/EllouzSSD1/ppanggolin_analysis_final/annother_ppanggolin/regions_of_genomic_plasticity.tsv' \
+    --gff 'data/gff_merged.tsv' \
+    --gene_fam '/media/sulman/EllouzSSD1/ppanggolin_analysis_final/annother_ppanggolin/gene_families.tsv' \
+    --genomad 'data/genomad_run' \
+    --assembly_dir 'data/assemblies' \
+    --bakta_dir 'data/bakta_annotations' \
+    --plasme_results 'data/plasme_results' \
+    --output "cluster_rgp_output" \
+    --vfdb_res '/home/sulman/Desktop/ppanggolin_analysis_final/data/vfdb/vfdb_search.tsv' \
+    --amr_res '/home/sulman/Desktop/ppanggolin_analysis_final/data/amrfinder.tsv'
